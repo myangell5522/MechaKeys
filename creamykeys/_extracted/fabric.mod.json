@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "id": "creamykeys",
+  "version": "0.0.4+26.2",
+  "name": "CreamyKeys",
+  "description": "Mechanical keyboard sounds for every key and mouse clicks.",
+  "authors": [
+    "cutebow"
+  ],
+  "license": "MIT",
+  "icon": "assets/creamykeys/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "me.cutebow.creamykeys.CreamyKeys"
+    ],
+    "client": [
+      "me.cutebow.creamykeys.client.CreamyKeysClient"
+    ],
+    "modmenu": [
+      "me.cutebow.creamykeys.integration.ModMenuIntegration"
+    ]
+  },
+  "mixins": [
+    "creamykeys.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.5",
+    "minecraft": "26.2",
+    "silicon": ">=1.0.0"
+  },
+  "suggests": {
+    "modmenu": "*"
+  },
+  "contact": {
+    "discord": "https://discord.gg/A2Nx9kxDeB",
+    "modrinth": "https://modrinth.com/user/cutebow"
+  },
+  "custom": {
+    "modmenu": {
+      "links": {
+        "discord": "https://discord.gg/A2Nx9kxDeB",
+        "modrinth": "https://modrinth.com/user/cutebow"
+      }
+    }
+  }
+}

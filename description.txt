@@ -1,0 +1,17 @@
+Mecha Keys brings satisfying mechanical keyboard and mouse clicks to Terraria.
+
+Every key and mouse button gets a creamy click. Pick from built-in Cherry MX sound packs, split keyboard and mouse onto different sets, and load your own .ogg / .wav files or .zip packs from the config folder.
+
+Tune volume and amplify independently for keyboard and mouse. Open the mod config to pick packs and preview them: left-click the key for keyboard, right-click for mouse. Clicks play everywhere.
+
+Sounds originated from the Minecraft mod CreamyKeys by cutebow (MIT).
+
+---
+
+Mecha Keys добавляет в Terraria приятные звуки механической клавиатуры и мыши.
+
+Каждая клавиша и кнопка мыши получает свой клик. Выбирайте встроенные пакеты Cherry MX, задайте мыши отдельный набор и подгружайте свои .ogg / .wav или .zip из папки настроек.
+
+Громкость и усиление настраиваются отдельно для клавиатуры и мыши. Пакеты и превью — в конфиге мода: ЛКМ по клавише слушает клавиатуру, ПКМ — мышь. Клики слышны везде.
+
+Звуки взяты из Minecraft-мода CreamyKeys от cutebow (MIT).

@@ -1,0 +1,12 @@
+C:\Users\myangell\Documents\My Games\Terraria\tModLoader\ModSources\MechaKeys\bin\Release\net8.0\MechaKeys.deps.json
+C:\Users\myangell\Documents\My Games\Terraria\tModLoader\ModSources\MechaKeys\bin\Release\net8.0\MechaKeys.dll
+C:\Users\myangell\Documents\My Games\Terraria\tModLoader\ModSources\MechaKeys\bin\Release\net8.0\MechaKeys.pdb
+C:\Users\myangell\Documents\My Games\Terraria\tModLoader\ModSources\MechaKeys\obj\Release\net8.0\MechaKeys.csproj.AssemblyReference.cache
+C:\Users\myangell\Documents\My Games\Terraria\tModLoader\ModSources\MechaKeys\obj\Release\net8.0\MechaKeys.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\myangell\Documents\My Games\Terraria\tModLoader\ModSources\MechaKeys\obj\Release\net8.0\MechaKeys.AssemblyInfoInputs.cache
+C:\Users\myangell\Documents\My Games\Terraria\tModLoader\ModSources\MechaKeys\obj\Release\net8.0\MechaKeys.AssemblyInfo.cs
+C:\Users\myangell\Documents\My Games\Terraria\tModLoader\ModSources\MechaKeys\obj\Release\net8.0\MechaKeys.csproj.CoreCompileInputs.cache
+C:\Users\myangell\Documents\My Games\Terraria\tModLoader\ModSources\MechaKeys\obj\Release\net8.0\MechaKeys.dll
+C:\Users\myangell\Documents\My Games\Terraria\tModLoader\ModSources\MechaKeys\obj\Release\net8.0\refint\MechaKeys.dll
+C:\Users\myangell\Documents\My Games\Terraria\tModLoader\ModSources\MechaKeys\obj\Release\net8.0\MechaKeys.pdb
+C:\Users\myangell\Documents\My Games\Terraria\tModLoader\ModSources\MechaKeys\obj\Release\net8.0\ref\MechaKeys.dll

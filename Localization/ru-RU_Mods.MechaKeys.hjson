@@ -1,0 +1,105 @@
+DisplayName: Mecha Keys
+
+Configs: {
+	MechaKeysConfig: {
+		DisplayName: Mecha Keys
+
+		Headers: {
+			Preview: Превью
+			General: Общее
+			Keyboard: Клавиатура
+			Mouse: Мышь
+			Packs: Свои пакеты
+		}
+
+		LogoPreview: {
+			Label: ""
+			Tooltip: ЛКМ — превью пакета клавиатуры. ПКМ — превью пакета мыши.
+		}
+
+		Enabled: {
+			Label: Включено
+			Tooltip: Главный выключатель звуков нажатий. Клики слышны везде: в меню, инвентаре, чате и в игре.
+		}
+
+		KeyboardSounds: {
+			Label: Звуки клавиатуры
+			Tooltip: Клик при каждом нажатии клавиши.
+		}
+
+		KeyboardPack: {
+			Label: Пакет клавиатуры
+			Tooltip: ЛКМ — следующий пакет, ПКМ — предыдущий. Встроенные Cherry MX и всё, что вы положите в папку пакетов.
+		}
+
+		KeyboardVolume: {
+			Label: Громкость клавиатуры
+			Tooltip: Громкость кликов клавиатуры в процентах от игровой громкости Sound.
+		}
+
+		KeyboardAmplify: {
+			Label: Усиление клавиатуры
+			Tooltip: Накладывает дополнительные копии того же клика. 1x — как есть, больше — громче и плотнее.
+		}
+
+		TestKeyboard: {
+			Label: Тест клавиатуры
+			Tooltip: Проиграть пример из текущего пакета клавиатуры.
+		}
+
+		MouseSounds: {
+			Label: Звуки мыши
+			Tooltip: Клик по левой и правой кнопкам мыши.
+		}
+
+		MousePack: {
+			Label: Пакет мыши
+			Tooltip: Отдельный набор для мыши. ЛКМ — вперёд, ПКМ — назад.
+		}
+
+		MouseVolume: {
+			Label: Громкость мыши
+			Tooltip: Громкость кликов мыши в процентах от игровой громкости Sound.
+		}
+
+		MouseAmplify: {
+			Label: Усиление мыши
+			Tooltip: Накладывает дополнительные копии клика мыши.
+		}
+
+		TestMouse: {
+			Label: Тест мыши
+			Tooltip: Проиграть пример из текущего пакета мыши.
+		}
+
+		OpenSoundFolder: {
+			Label: Открыть папку пакетов
+			Tooltip: Папка для своих .ogg / .wav или .zip. Не используйте .jar как пакеты звуков.
+		}
+
+		RescanSoundFolder: {
+			Label: Пересканировать папку
+			Tooltip: Перечитать встроенные и свои пакеты после добавления файлов.
+		}
+	}
+}
+
+Packs: {
+	cherrymx_blue_abs: Cherry MX Blue ABS
+	cherrymx_blue_abs_2: Cherry MX Blue ABS 2
+	cherrymx_black_abs: Cherry MX Black ABS
+	cherrymx_black_pbt: Cherry MX Black PBT
+	cherrymx_brown_abs: Cherry MX Brown ABS
+	cherrymx_brown_pbt: Cherry MX Brown PBT
+	cherrymx_red_abs: Cherry MX Red ABS
+	hit: Hit
+	hit1: Hit 1
+	hit2: Hit 2
+	hit3: Hit 3
+	hit4: Hit 4
+	hit5: Laser
+	hit6: Ponk
+	hit7: Corsair LMB
+	hit8: Corsair MMB
+	single: Single
+}

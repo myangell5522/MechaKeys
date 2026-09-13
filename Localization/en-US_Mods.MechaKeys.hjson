@@ -1,0 +1,105 @@
+DisplayName: Mecha Keys
+
+Configs: {
+	MechaKeysConfig: {
+		DisplayName: Mecha Keys
+
+		Headers: {
+			Preview: Preview
+			General: General
+			Keyboard: Keyboard
+			Mouse: Mouse
+			Packs: Custom packs
+		}
+
+		LogoPreview: {
+			Label: ""
+			Tooltip: Left click previews the keyboard pack. Right click previews the mouse pack.
+		}
+
+		Enabled: {
+			Label: Enabled
+			Tooltip: Master switch for mechanical click sounds. Clicks play everywhere: menus, inventory, chat, and gameplay.
+		}
+
+		KeyboardSounds: {
+			Label: Keyboard sounds
+			Tooltip: Play a click whenever a keyboard key is pressed.
+		}
+
+		KeyboardPack: {
+			Label: Keyboard pack
+			Tooltip: Left click for the next pack, right click for the previous. Cycles through built-in Cherry MX sets and anything you add to the sound pack folder.
+		}
+
+		KeyboardVolume: {
+			Label: Keyboard volume
+			Tooltip: Volume of keyboard clicks, as a percent of the game's Sound volume.
+		}
+
+		KeyboardAmplify: {
+			Label: Keyboard amplify
+			Tooltip: Stacks extra copies of the same click. 1x is natural, higher values are louder and denser.
+		}
+
+		TestKeyboard: {
+			Label: Test keyboard
+			Tooltip: Play a sample from the current keyboard pack.
+		}
+
+		MouseSounds: {
+			Label: Mouse sounds
+			Tooltip: Play a click on left and right mouse buttons.
+		}
+
+		MousePack: {
+			Label: Mouse pack
+			Tooltip: Separate sound set for mouse clicks. Left click cycles forward, right click cycles back.
+		}
+
+		MouseVolume: {
+			Label: Mouse volume
+			Tooltip: Volume of mouse clicks, as a percent of the game's Sound volume.
+		}
+
+		MouseAmplify: {
+			Label: Mouse amplify
+			Tooltip: Stacks extra copies of the same mouse click.
+		}
+
+		TestMouse: {
+			Label: Test mouse
+			Tooltip: Play a sample from the current mouse pack.
+		}
+
+		OpenSoundFolder: {
+			Label: Open sound pack folder
+			Tooltip: Opens the folder where you drop custom .ogg / .wav files or .zip packs. Never use .jar files as sound packs.
+		}
+
+		RescanSoundFolder: {
+			Label: Rescan sounds folder
+			Tooltip: Reload built-in and custom packs after adding files.
+		}
+	}
+}
+
+Packs: {
+	cherrymx_blue_abs: Cherry MX Blue ABS
+	cherrymx_blue_abs_2: Cherry MX Blue ABS 2
+	cherrymx_black_abs: Cherry MX Black ABS
+	cherrymx_black_pbt: Cherry MX Black PBT
+	cherrymx_brown_abs: Cherry MX Brown ABS
+	cherrymx_brown_pbt: Cherry MX Brown PBT
+	cherrymx_red_abs: Cherry MX Red ABS
+	hit: Hit
+	hit1: Hit 1
+	hit2: Hit 2
+	hit3: Hit 3
+	hit4: Hit 4
+	hit5: Laser
+	hit6: Ponk
+	hit7: Corsair LMB
+	hit8: Corsair MMB
+	single: Single
+}

@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "me.cutebow.creamykeys.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "client": [
+    "KeyboardMixin",
+    "MouseMixin",
+    "MuteButtonClickSoundMixin",
+    "TitleScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

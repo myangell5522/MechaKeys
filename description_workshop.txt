@@ -1,0 +1,23 @@
+Mecha Keys adds satisfying mechanical keyboard and mouse clicks to every input in Terraria.
+
+[h2]Features[/h2]
+[list]
+[*] Clicks on every keyboard key and left/right mouse button, in menus, inventory, chat, and gameplay
+[*] Built-in Cherry MX packs (Blue, Black, Brown, Red — ABS and PBT)
+[*] Separate sound packs, volume, and amplify for keyboard and mouse
+[*] Preview packs in the mod config (click the key, or use Test Keyboard / Test Mouse)
+[*] Custom packs: drop .ogg / .wav files or a .zip into the sound pack folder
+[/list]
+
+[h2]Custom sound packs[/h2]
+Open the in-game config, press [b]Open sound pack folder[/b], then add:
+[list]
+[*] Loose .ogg files (pack name: [i]single[/i])
+[*] A folder of .ogg files (the folder name is the pack name)
+[*] A .zip of .ogg files (the zip name is the pack name)
+[/list]
+Press [b]Rescan sounds folder[/b] after adding files. Do not use .jar files as sound packs.
+
+Keyboard sounds follow the game's Sound volume. Turn game Sound up if clicks are quiet.
+
+Sounds originated from the Minecraft mod [url=https://modrinth.com/mod/creamykeys]CreamyKeys[/url] by cutebow (MIT).
