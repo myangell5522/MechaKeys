@@ -1,0 +1,58 @@
+
+
+[2026-10-15 23:01:12] Client version: 1791918946
+[2026-10-15 23:01:12] [AppID 7] Starting sync (init,)
+[2026-10-15 23:01:12] [AppID 7] AutoCloud checking local state for user 1256002322
+[2026-10-15 23:01:12] [AppID 7] Not running AutoCloud. No config data found
+[2026-10-15 23:01:12] [U:1:1256002322] [AppID 7] Init cache request complete
+[2026-10-15 23:01:12] [AppID 7] YldWriteCacheDirectoryToFile - empty vector, deleting 'C:\Users\myangell\Documents\My Games\Terraria\tModLoader\ModSources\swapmyaudio\workshop\steamcmd/userdata/1256002322/7/remotecache.vdf'
+[2026-10-15 23:01:21] [AppID 7] Starting sync (down,)
+[2026-10-15 23:01:22] [AppID 7] Attempting to sync from local change number '0' to global change number '572' (full)
+[2026-10-15 23:01:22] [AppID 7] Need to download file serverbrowser_hist.vdf
+[2026-10-15 23:01:22] [AppID 7] Need to download file sharedconfig.vdf
+[2026-10-15 23:01:22] [AppID 7] HTTP download for file 'sharedconfig.vdf' from host 'steamcloudsweden.blob.core.windows.net', path /cloud/12/13/DD/4A/7/062_B_1F9A4402_F7BFE_88.dat, beginning. . .
+[2026-10-15 23:01:22] [AppID 7] HTTP download for file 'serverbrowser_hist.vdf' from host 'steamcloudsweden.blob.core.windows.net', path /cloud/12/13/DD/4A/7/062_B_1F9A4403_8B7F0_1086.dat, beginning. . .
+[2026-10-15 23:01:24] [AppID 7] HTTP download for file 'sharedconfig.vdf' from host 'steamcloudsweden.blob.core.windows.net' - Success.
+[2026-10-15 23:01:24] [AppID 7] Download OK for file sharedconfig.vdf
+[2026-10-15 23:01:24] [AppID 7] HTTP download for file 'serverbrowser_hist.vdf' from host 'steamcloudsweden.blob.core.windows.net' - Success.
+[2026-10-15 23:01:24] [AppID 7] Download OK for file serverbrowser_hist.vdf
+[2026-10-15 23:01:24] [AppID 7] Download complete, result OK
+[2026-10-15 23:01:24] [AppID 7] Successfully synced to ChangeNumber 572
+[2026-10-15 23:01:24] [Roaming Config] OnRemoteStorageSyncedClient() - result OK
+[2026-10-15 23:01:24] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Users\myangell\Documents\My Games\Terraria\tModLoader\ModSources\swapmyaudio\workshop\steamcmd/userdata/1256002322/7/remotecache.vdf'
+[2026-10-15 23:01:25] [AppID 1281930] Starting sync (init,)
+[2026-10-15 23:01:25] [AppID 1281930] AutoCloud checking local state for user 1256002322
+[2026-10-15 23:01:25] [U:1:1256002322] [AppID 1281930] Init cache request complete
+[2026-10-15 23:01:25] [AppID 1281930] YldWriteCacheDirectoryToFile - empty vector, deleting 'C:\Users\myangell\Documents\My Games\Terraria\tModLoader\ModSources\swapmyaudio\workshop\steamcmd/userdata/1256002322/1281930/remotecache.vdf'
+[2026-10-15 23:01:25] [AppID 1281930] HTTP upload for UGC file 'previewfile_3794649591.gif' beginning . . .
+[2026-10-15 23:01:27] [AppID 1281930] HTTP upload for UGC file 'previewfile_3794649591.gif' (length=787196) to (135.130.16.65 / 135.130.16.65, host: steamugcquincy.blob.core.windows.net), path /cloud/12/13/DD/4A/105600/295_8_0034C3D3_45459_1.dat - success.
+[2026-10-15 23:01:28] [AppID 1281930] UGC Upload OK for file previewfile_3794649591.gif
+
+
+[2026-10-15 23:57:49] Client version: 1791918946
+[2026-10-15 23:57:49] [AppID 7] Starting sync (init,)
+[2026-10-15 23:57:49] [AppID 7] AutoCloud checking local state for user 1256002322
+[2026-10-15 23:57:49] [U:1:1256002322] [AppID 7] Init cache request complete
+[2026-10-15 23:57:49] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Users\myangell\Documents\My Games\Terraria\tModLoader\ModSources\MechaKeys\SteamWorkshop\steamcmd/userdata/1256002322/7/remotecache.vdf'
+[2026-10-15 23:57:53] [Roaming Config] PerformSyncCloud - evaluating sync state
+[2026-10-15 23:57:53] [AppID 7] Starting sync (eval,)
+[2026-10-15 23:57:53] [AppID 7] AutoCloud checking local state for user 1256002322
+[2026-10-15 23:57:53] [AppID 7] Currently already synced to global change number '572', should be nothing to download
+[2026-10-15 23:57:53] [AppID 7] File is in sync serverbrowser_hist.vdf
+[2026-10-15 23:57:53] [AppID 7] File is in sync sharedconfig.vdf
+[2026-10-15 23:57:53] [AppID 7] Eval complete
+[2026-10-15 23:57:53] [Roaming Config] OnRemoteStorageStateEvaluated - result OK
+[2026-10-15 23:57:53] [AppID 7] Starting sync (down,)
+[2026-10-15 23:57:53] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Users\myangell\Documents\My Games\Terraria\tModLoader\ModSources\MechaKeys\SteamWorkshop\steamcmd/userdata/1256002322/7/remotecache.vdf'
+[2026-10-15 23:57:54] [AppID 7] Currently already synced to global change number '572', should be nothing to download
+[2026-10-15 23:57:54] [AppID 7] Download complete in build list
+[2026-10-15 23:57:54] [AppID 7] Successfully synced to ChangeNumber 0
+[2026-10-15 23:57:54] [Roaming Config] OnRemoteStorageSyncedClient() - result OK
+[2026-10-15 23:57:54] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Users\myangell\Documents\My Games\Terraria\tModLoader\ModSources\MechaKeys\SteamWorkshop\steamcmd/userdata/1256002322/7/remotecache.vdf'
+[2026-10-15 23:57:55] [AppID 1281930] Starting sync (init,)
+[2026-10-15 23:57:55] [AppID 1281930] AutoCloud checking local state for user 1256002322
+[2026-10-15 23:57:55] [U:1:1256002322] [AppID 1281930] Init cache request complete
+[2026-10-15 23:57:55] [AppID 1281930] YldWriteCacheDirectoryToFile - empty vector, deleting 'C:\Users\myangell\Documents\My Games\Terraria\tModLoader\ModSources\MechaKeys\SteamWorkshop\steamcmd/userdata/1256002322/1281930/remotecache.vdf'
+[2026-10-15 23:57:56] [AppID 1281930] HTTP upload for UGC file 'previewfile_3820442598.gif' beginning . . .
+[2026-10-15 23:57:58] [AppID 1281930] HTTP upload for UGC file 'previewfile_3820442598.gif' (length=321994) to (142.251.208.251 / 142.251.208.251, host: steamcloud-ugc.storage.googleapis.com), path /12/13/DD/4A/105600/38D_6_10ED9CE8_B06EA_1.dat - success.
+[2026-10-15 23:57:59] [AppID 1281930] UGC Upload OK for file previewfile_3820442598.gif

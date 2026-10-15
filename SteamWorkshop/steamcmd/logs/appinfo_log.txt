@@ -1,0 +1,97 @@
+
+
+[2026-10-15 22:44:08] Client version: 1791918946
+[2026-10-15 22:44:08] ThreadedReadFromDisk: loading appinfo cache from: C:\Users\myangell\Documents\My Games\Terraria\tModLoader\ModSources\swapmyaudio\workshop\steamcmd/appcache/appinfo.vdf
+[2026-10-15 22:44:08] ThreadedReadFromDisk: failed to open file: C:\Users\myangell\Documents\My Games\Terraria\tModLoader\ModSources\swapmyaudio\workshop\steamcmd/appcache/appinfo.vdf
+[2026-10-15 22:44:08] CAppInfoCacheReadFromDiskThread took 0 milliseconds to initialize
+
+
+[2026-10-15 22:45:16] Client version: 1791918946
+[2026-10-15 22:45:16] ThreadedReadFromDisk: loading appinfo cache from: C:\Users\myangell\Documents\My Games\Terraria\tModLoader\ModSources\swapmyaudio\workshop\steamcmd/appcache/appinfo.vdf
+[2026-10-15 22:45:16] ThreadedReadFromDisk: failed to open file: C:\Users\myangell\Documents\My Games\Terraria\tModLoader\ModSources\swapmyaudio\workshop\steamcmd/appcache/appinfo.vdf
+[2026-10-15 22:45:16] CAppInfoCacheReadFromDiskThread took 0 milliseconds to initialize
+
+
+[2026-10-15 22:46:09] Client version: 1791918946
+[2026-10-15 22:46:09] ThreadedReadFromDisk: loading appinfo cache from: C:\Users\myangell\Documents\My Games\Terraria\tModLoader\ModSources\swapmyaudio\workshop\steamcmd/appcache/appinfo.vdf
+[2026-10-15 22:46:09] ThreadedReadFromDisk: failed to open file: C:\Users\myangell\Documents\My Games\Terraria\tModLoader\ModSources\swapmyaudio\workshop\steamcmd/appcache/appinfo.vdf
+[2026-10-15 22:46:09] CAppInfoCacheReadFromDiskThread took 0 milliseconds to initialize
+
+
+[2026-10-15 22:47:46] Client version: 1791918946
+[2026-10-15 22:47:46] ThreadedReadFromDisk: loading appinfo cache from: C:\Users\myangell\Documents\My Games\Terraria\tModLoader\ModSources\swapmyaudio\workshop\steamcmd/appcache/appinfo.vdf
+[2026-10-15 22:47:46] ThreadedReadFromDisk: failed to open file: C:\Users\myangell\Documents\My Games\Terraria\tModLoader\ModSources\swapmyaudio\workshop\steamcmd/appcache/appinfo.vdf
+[2026-10-15 22:47:46] CAppInfoCacheReadFromDiskThread took 0 milliseconds to initialize
+
+
+[2026-10-15 22:51:44] Client version: 1791918946
+[2026-10-15 22:51:44] ThreadedReadFromDisk: loading appinfo cache from: C:\Users\myangell\Documents\My Games\Terraria\tModLoader\ModSources\swapmyaudio\workshop\steamcmd/appcache/appinfo.vdf
+[2026-10-15 22:51:44] ThreadedReadFromDisk: failed to open file: C:\Users\myangell\Documents\My Games\Terraria\tModLoader\ModSources\swapmyaudio\workshop\steamcmd/appcache/appinfo.vdf
+[2026-10-15 22:51:44] CAppInfoCacheReadFromDiskThread took 0 milliseconds to initialize
+
+
+[2026-10-15 22:52:01] Client version: 1791918946
+[2026-10-15 22:52:01] ThreadedReadFromDisk: loading appinfo cache from: C:\Users\myangell\Documents\My Games\Terraria\tModLoader\ModSources\swapmyaudio\workshop\steamcmd/appcache/appinfo.vdf
+[2026-10-15 22:52:01] ThreadedReadFromDisk: failed to open file: C:\Users\myangell\Documents\My Games\Terraria\tModLoader\ModSources\swapmyaudio\workshop\steamcmd/appcache/appinfo.vdf
+[2026-10-15 22:52:01] CAppInfoCacheReadFromDiskThread took 0 milliseconds to initialize
+
+
+[2026-10-15 22:59:53] Client version: 1791918946
+[2026-10-15 22:59:53] ThreadedReadFromDisk: loading appinfo cache from: C:\Users\myangell\Documents\My Games\Terraria\tModLoader\ModSources\swapmyaudio\workshop\steamcmd/appcache/appinfo.vdf
+[2026-10-15 22:59:53] ThreadedReadFromDisk: failed to open file: C:\Users\myangell\Documents\My Games\Terraria\tModLoader\ModSources\swapmyaudio\workshop\steamcmd/appcache/appinfo.vdf
+[2026-10-15 22:59:53] CAppInfoCacheReadFromDiskThread took 0 milliseconds to initialize
+
+
+[2026-10-15 23:00:20] Client version: 1791918946
+[2026-10-15 23:00:20] ThreadedReadFromDisk: loading appinfo cache from: C:\Users\myangell\Documents\My Games\Terraria\tModLoader\ModSources\swapmyaudio\workshop\steamcmd/appcache/appinfo.vdf
+[2026-10-15 23:00:20] ThreadedReadFromDisk: failed to open file: C:\Users\myangell\Documents\My Games\Terraria\tModLoader\ModSources\swapmyaudio\workshop\steamcmd/appcache/appinfo.vdf
+[2026-10-15 23:00:20] CAppInfoCacheReadFromDiskThread took 0 milliseconds to initialize
+
+
+[2026-10-15 23:00:58] Client version: 1791918946
+[2026-10-15 23:00:58] ThreadedReadFromDisk: loading appinfo cache from: C:\Users\myangell\Documents\My Games\Terraria\tModLoader\ModSources\swapmyaudio\workshop\steamcmd/appcache/appinfo.vdf
+[2026-10-15 23:00:58] ThreadedReadFromDisk: failed to open file: C:\Users\myangell\Documents\My Games\Terraria\tModLoader\ModSources\swapmyaudio\workshop\steamcmd/appcache/appinfo.vdf
+[2026-10-15 23:00:58] CAppInfoCacheReadFromDiskThread took 0 milliseconds to initialize
+[2026-10-15 23:01:13] RequestAppInfoUpdate: AppIDs 7
+[2026-10-15 23:01:13] Change number 0->39876036, apps: 0/0, packages: 0/0
+[2026-10-15 23:01:13] Requesting 1 apps, 1008 packages (meta data, 1024 prev attempts, expected 47 KB)
+[2026-10-15 23:01:15] Downloaded 1 apps via HTTP, 15 KB (3 KB compressed)
+[2026-10-15 23:01:15] Requesting 0 apps, 1008 packages (full data, 1024 prev attempts, expected 268 KB)
+[2026-10-15 23:01:15] UpdatesJob: finished OK, apps updated 1 (15 KB), packages updated 1008 (221 KB)
+[2026-10-15 23:01:16] Requesting 1694 apps, 0 packages (meta data, 1024 prev attempts, expected 79 KB)
+[2026-10-15 23:01:16] Requested 154 app access tokens, 139 received, 15 denied
+[2026-10-15 23:01:16] Updated SHAs with 139 new access tokens
+[2026-10-15 23:01:19] Downloaded 370 apps via HTTP, 5546 KB (1206 KB compressed)
+[2026-10-15 23:01:19] Requesting 1326 apps, 0 packages (full data, 1024 prev attempts, expected 4355 KB)
+[2026-10-15 23:01:20] ThreadedWriteToDisk: writing appinfo cache to: C:\Users\myangell\Documents\My Games\Terraria\tModLoader\ModSources\swapmyaudio\workshop\steamcmd/appcache/appinfo.vdf
+[2026-10-15 23:01:20] App cache write succeeded C:\Users\myangell\Documents\My Games\Terraria\tModLoader\ModSources\swapmyaudio\workshop\steamcmd/appcache/appinfo.vdf (1283 apps, 4047 KB) in 41 ms
+[2026-10-15 23:01:21] UpdatesJob: finished OK, apps updated 1696 (9951 KB), packages updated 0 (0 KB)
+[2026-10-15 23:01:21] UpdatesJob: apps still needs updates, run again
+[2026-10-15 23:01:21] Requesting 15 apps, 0 packages (meta data, 1024 prev attempts, expected 0 KB)
+[2026-10-15 23:01:22] Requested 15 app access tokens, 0 received, 15 denied
+[2026-10-15 23:01:22] UpdatesJob: finished OK, apps updated 0 (0 KB), packages updated 0 (0 KB)
+[2026-10-15 23:01:24] RequestAppInfoUpdate: AppIDs 228980,1281930
+[2026-10-15 23:01:24] Requesting 2 apps, 0 packages (meta data, 1024 prev attempts, expected 0 KB)
+[2026-10-15 23:01:24] UpdatesJob: finished OK, apps updated 0 (0 KB), packages updated 0 (0 KB)
+[2026-10-15 23:01:26] ThreadedWriteToDisk: writing appinfo cache to: C:\Users\myangell\Documents\My Games\Terraria\tModLoader\ModSources\swapmyaudio\workshop\steamcmd/appcache/appinfo.vdf
+[2026-10-15 23:01:26] App cache write succeeded C:\Users\myangell\Documents\My Games\Terraria\tModLoader\ModSources\swapmyaudio\workshop\steamcmd/appcache/appinfo.vdf (1695 apps, 4886 KB) in 135 ms
+
+
+[2026-10-15 23:57:49] Client version: 1791918946
+[2026-10-15 23:57:49] ThreadedReadFromDisk: loading appinfo cache from: C:\Users\myangell\Documents\My Games\Terraria\tModLoader\ModSources\MechaKeys\SteamWorkshop\steamcmd/appcache/appinfo.vdf
+[2026-10-15 23:57:49] ThreadedReadFromDisk: header version: 0x7564429
+[2026-10-15 23:57:49] ThreadedReadFromDisk: apps updated: 1695
+[2026-10-15 23:57:49] CAppInfoCacheReadFromDiskThread took 52 milliseconds to initialize
+[2026-10-15 23:57:53] RequestAppInfoUpdate: AppIDs 7
+[2026-10-15 23:57:53] Apps changed: 2012840=39877479,380870=39877469,1962700=39877453,108600=39877426,801550=39877415,1623730=39877363,1149460=39877245,2394010=39877210,251570=39877028,4252340=39876987,2054970=39876817,4427310=39876785,3949040=39876634,3527290=39876582,1493710=39876381,
+[2026-10-15 23:57:53] Change number 39876036->39877583, apps: 15/1121, packages: 0/125
+[2026-10-15 23:57:53] Requesting 31 apps, 0 packages (meta data, 1024 prev attempts, expected 1 KB)
+[2026-10-15 23:57:54] Requested 15 app access tokens, 0 received, 15 denied
+[2026-10-15 23:57:54] Downloaded 1 apps via HTTP, 8 KB (2 KB compressed)
+[2026-10-15 23:57:54] Requesting 4 apps, 0 packages (full data, 1024 prev attempts, expected 17 KB)
+[2026-10-15 23:57:54] UpdatesJob: finished OK, apps updated 5 (26 KB), packages updated 0 (0 KB)
+[2026-10-15 23:57:55] RequestAppInfoUpdate: AppIDs 228980,1281930
+[2026-10-15 23:57:55] Requesting 2 apps, 0 packages (meta data, 1024 prev attempts, expected 0 KB)
+[2026-10-15 23:57:55] UpdatesJob: finished OK, apps updated 0 (0 KB), packages updated 0 (0 KB)
+[2026-10-15 23:57:59] ThreadedWriteToDisk: writing appinfo cache to: C:\Users\myangell\Documents\My Games\Terraria\tModLoader\ModSources\MechaKeys\SteamWorkshop\steamcmd/appcache/appinfo.vdf
+[2026-10-15 23:57:59] App cache write succeeded C:\Users\myangell\Documents\My Games\Terraria\tModLoader\ModSources\MechaKeys\SteamWorkshop\steamcmd/appcache/appinfo.vdf (1695 apps, 4886 KB) in 54 ms

@@ -52,25 +52,49 @@ namespace MechaKeys.Core
 				return;
 
 			WarmupPack(cfg.KeyboardPack, 8);
-			if (!string.Equals(cfg.MousePack, cfg.KeyboardPack, StringComparison.OrdinalIgnoreCase))
-				WarmupPack(cfg.MousePack, 8);
+			if (!string.Equals(cfg.EffectiveMousePack, cfg.KeyboardPack, StringComparison.OrdinalIgnoreCase))
+				WarmupPack(cfg.EffectiveMousePack, 8);
 		}
 
-		internal static void PlayKeyboard(MechaKeysConfig cfg)
+		internal static void PlayKeyboard(MechaKeysConfig cfg, float pitch = 0f, float pan = 0f)
 		{
 			if (cfg == null || !cfg.Enabled || !cfg.KeyboardSounds)
 				return;
-			PlayPack(cfg.KeyboardPack, cfg.KeyboardVolume / 100f, cfg.KeyboardAmplify);
+			PlayPack(cfg.KeyboardPack, cfg.KeyboardVolume / 100f, cfg.KeyboardAmplify, pitch + RandomPitch(cfg), pan, cfg.FollowGameVolume);
 		}
 
 		internal static void PlayMouse(MechaKeysConfig cfg)
 		{
 			if (cfg == null || !cfg.Enabled || !cfg.MouseSounds)
 				return;
-			PlayPack(cfg.MousePack, cfg.MouseVolume / 100f, cfg.MouseAmplify);
+			PlayPack(cfg.EffectiveMousePack, cfg.MouseVolume / 100f, cfg.MouseAmplify, RandomPitch(cfg), 0f, cfg.FollowGameVolume);
 		}
 
-		internal static void PlayPack(string pack, float volume, int amplify)
+		/// <summary>Preview helpers used by the config UI.</summary>
+		internal static void PreviewKeyboard(MechaKeysConfig cfg, string pack = null)
+		{
+			if (cfg == null)
+				return;
+			PlayPack(pack ?? cfg.KeyboardPack, cfg.KeyboardVolume / 100f, cfg.KeyboardAmplify, RandomPitch(cfg), 0f, cfg.FollowGameVolume);
+		}
+
+		internal static void PreviewMouse(MechaKeysConfig cfg, string pack = null)
+		{
+			if (cfg == null)
+				return;
+			PlayPack(pack ?? cfg.EffectiveMousePack, cfg.MouseVolume / 100f, cfg.MouseAmplify, RandomPitch(cfg), 0f, cfg.FollowGameVolume);
+		}
+
+		private static float RandomPitch(MechaKeysConfig cfg)
+		{
+			if (cfg == null || cfg.PitchVariation <= 0)
+				return 0f;
+			// 100% variation = +/- 0.25 (about three semitones)
+			float range = cfg.PitchVariation / 100f * 0.25f;
+			return ((float)Random.Shared.NextDouble() * 2f - 1f) * range;
+		}
+
+		internal static void PlayPack(string pack, float volume, int amplify, float pitch = 0f, float pan = 0f, bool followGameVolume = true)
 		{
 			SoundClip clip = SoundPackCatalog.Pick(pack);
 			if (clip == null)
@@ -80,14 +104,16 @@ namespace MechaKeys.Core
 			if (effect == null)
 				return;
 
-			float vol = Math.Clamp(volume * Main.soundVolume, 0f, 1f);
+			float vol = Math.Clamp(volume * (followGameVolume ? Main.soundVolume : 1f), 0f, 1f);
 			if (vol <= 0.001f)
 				return;
 
+			pitch = Math.Clamp(pitch, -1f, 1f);
+			pan = Math.Clamp(pan, -1f, 1f);
 			int layers = Math.Clamp(amplify, 1, 8);
 			try {
 				for (int i = 0; i < layers; i++)
-					effect.Play(vol, 0f, 0f);
+					effect.Play(vol, pitch, pan);
 			}
 			catch (Exception e) {
 				ModContent.GetInstance<MechaKeys>()?.Logger.Warn("Failed to play click: " + e.Message);

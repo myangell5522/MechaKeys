@@ -1,0 +1,15 @@
+
+
+[2026-10-15 23:01:12] Client version: 1791918946
+[2026-10-15 23:01:12] Load failed: C:\Users\myangell\Documents\My Games\Terraria\tModLoader\ModSources\swapmyaudio\workshop\steamcmd\steamapps\libraryfolders.vdf.
+[2026-10-15 23:01:12] Load failed: C:\Users\myangell\Documents\My Games\Terraria\tModLoader\ModSources\swapmyaudio\workshop\steamcmd\config\libraryfolders.vdf.
+[2026-10-15 23:01:12] Steam library folders configuration will be reset.
+[2026-10-15 23:01:12] No install folder configuration files found.
+[2026-10-15 23:01:12] Loaded 0 apps from install folder "C:\Users\myangell\Documents\My Games\Terraria\tModLoader\ModSources\swapmyaudio\workshop\steamcmd\steamapps\appmanifest_*.acf".
+[2026-10-15 23:01:12] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2026-10-15 23:57:49] Client version: 1791918946
+[2026-10-15 23:57:49] Loaded Steam library folders configuration: C:\Users\myangell\Documents\My Games\Terraria\tModLoader\ModSources\MechaKeys\SteamWorkshop\steamcmd\steamapps\libraryfolders.vdf
+[2026-10-15 23:57:49] Loaded 0 apps from install folder "C:\Users\myangell\Documents\My Games\Terraria\tModLoader\ModSources\MechaKeys\SteamWorkshop\steamcmd\steamapps\appmanifest_*.acf".
+[2026-10-15 23:57:49] Triggered async write of Steam library folders configuration (1 libraries).

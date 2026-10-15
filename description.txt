@@ -1,17 +1,21 @@
 Mecha Keys brings satisfying mechanical keyboard and mouse clicks to Terraria.
 
-Every key and mouse button gets a creamy click. Pick from built-in Cherry MX sound packs, split keyboard and mouse onto different sets, and load your own .ogg / .wav files or .zip packs from the config folder.
+Every key and mouse button gets a real switch sound. Choose from 30+ packs: Cherry MX Blue, Brown, Red and Black, Gateron Yellow, Oil King, Holy Panda, Kailh Box Jade and Navy, Alps, Topre, buckling spring, silent switches, a typewriter and dedicated mouse switches. Or load your own .ogg / .wav files and .zip packs.
 
-Tune volume and amplify independently for keyboard and mouse. Open the mod config to pick packs and preview them: left-click the key for keyboard, right-click for mouse. Clicks play everywhere.
+Quick presets set a matching keyboard and mouse sound in one click. Pick when clicks play (everywhere, only in menus and while typing, or only while typing), add natural pitch variation, deeper Space and Enter, stereo keys, and mute modifier keys.
 
-Sounds originated from the Minecraft mod CreamyKeys by cutebow (MIT).
+Open the mod config to browse switches with a live preview: the animated keycap presses with every click and glows in the colour of the selected switch.
+
+Cherry MX and Hit sounds originated from the Minecraft mod CreamyKeys by cutebow (MIT). All other packs are original sounds synthesized for Mecha Keys.
 
 ---
 
 Mecha Keys добавляет в Terraria приятные звуки механической клавиатуры и мыши.
 
-Каждая клавиша и кнопка мыши получает свой клик. Выбирайте встроенные пакеты Cherry MX, задайте мыши отдельный набор и подгружайте свои .ogg / .wav или .zip из папки настроек.
+Каждая клавиша и кнопка мыши звучит как настоящий свитч. Больше 30 пакетов: Cherry MX Blue, Brown, Red и Black, Gateron Yellow, Oil King, Holy Panda, Kailh Box Jade и Navy, Alps, Topre, buckling spring, тихие свитчи, печатная машинка и отдельные свитчи для мыши. Можно подгрузить свои .ogg / .wav и .zip.
 
-Громкость и усиление настраиваются отдельно для клавиатуры и мыши. Пакеты и превью — в конфиге мода: ЛКМ по клавише слушает клавиатуру, ПКМ — мышь. Клики слышны везде.
+Быстрые пресеты в один клик подбирают звук клавиатуры и мыши. Можно выбрать, когда играть клики (везде, только в меню и при вводе текста или только при вводе), добавить естественный разброс тона, более глубокие Пробел и Enter, стерео-клавиатуру и отключить звук модификаторов.
 
-Звуки взяты из Minecraft-мода CreamyKeys от cutebow (MIT).
+В конфиге мода свитчи листаются с живым превью: анимированный кейкап нажимается с каждым кликом и светится цветом выбранного свитча.
+
+Звуки Cherry MX и Hit взяты из Minecraft-мода CreamyKeys от cutebow (MIT). Остальные пакеты — оригинальные звуки, синтезированные для Mecha Keys.

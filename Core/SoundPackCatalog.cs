@@ -19,6 +19,26 @@ namespace MechaKeys.Core
 
 		internal static IReadOnlyList<string> PackNames => Names;
 
+		/// <summary>
+		/// Pack order for a picker: keyboard pickers list switches first and mouse packs last,
+		/// mouse pickers the other way round. Custom packs always come at the end.
+		/// </summary>
+		internal static List<string> PackNamesFor(bool mouse)
+		{
+			return Names
+				.OrderBy(n => {
+					PackInfo.Meta m = PackInfo.Get(n);
+					if (m.Kind == SwitchKind.Custom)
+						return 2;
+					return (m.Kind == SwitchKind.Mouse) == mouse ? 0 : 1;
+				})
+				.ThenBy(n => PackInfo.Get(n).Order)
+				.ThenBy(n => n, StringComparer.OrdinalIgnoreCase)
+				.ToList();
+		}
+
+		internal static bool Exists(string pack) => !string.IsNullOrWhiteSpace(pack) && Packs.ContainsKey(pack);
+
 		internal static void Unload()
 		{
 			Packs.Clear();
@@ -86,6 +106,13 @@ namespace MechaKeys.Core
 				ModContent.GetInstance<MechaKeys>()?.Logger.Warn("Sound pack scan failed: " + e.Message);
 			}
 
+			List<string> sorted = Names
+				.OrderBy(n => PackInfo.Get(n).Order)
+				.ThenBy(n => n, StringComparer.OrdinalIgnoreCase)
+				.ToList();
+			Names.Clear();
+			Names.AddRange(sorted);
+
 			if (ModContent.GetInstance<MechaKeysConfig>() is MechaKeysConfig cfg)
 				EnsureConfigValid(cfg);
 		}
@@ -95,11 +122,13 @@ namespace MechaKeys.Core
 			if (cfg == null || Names.Count == 0)
 				return;
 
-			if (string.IsNullOrWhiteSpace(cfg.KeyboardPack) || !Packs.ContainsKey(cfg.KeyboardPack))
-				cfg.KeyboardPack = Names[0];
-			if (string.IsNullOrWhiteSpace(cfg.MousePack) || !Packs.ContainsKey(cfg.MousePack))
-				cfg.MousePack = Names[Math.Min(1, Names.Count - 1)];
+			if (!Exists(cfg.KeyboardPack))
+				cfg.KeyboardPack = FirstExisting("cherrymx_black_pbt", "gateron_yellow") ?? PackNamesFor(false)[0];
+			if (!Exists(cfg.MousePack))
+				cfg.MousePack = FirstExisting("cherrymx_blue_abs_2", "mouse_classic") ?? PackNamesFor(true)[0];
 		}
+
+		private static string FirstExisting(params string[] ids) => ids.FirstOrDefault(Exists);
 
 		internal static IReadOnlyList<SoundClip> GetClips(string pack)
 		{
@@ -298,7 +327,8 @@ Optional: add an index.txt inside a keyboard folder (or zip) to control ordering
 Each line is a relative path to an audio file. Anything after # is a comment.
 Even with index.txt, extra audio files are still included.
 
-Open Mecha Keys settings and press Rescan Sounds Folder after adding files.
+Open Mecha Keys settings and press Rescan sound packs after adding files.
+Tip: a pack plays a random file each press, so 10+ slightly different clicks sound the most natural.
 
 -----------------------------------
 
@@ -317,7 +347,8 @@ Open Mecha Keys settings and press Rescan Sounds Folder after adding files.
 Каждая строка — относительный путь к файлу. Всё после # это комментарий.
 Лишние звуки всё равно добавятся.
 
-После добавления файлов откройте настройки Mecha Keys и нажмите Rescan Sounds Folder.
+После добавления файлов откройте настройки Mecha Keys и нажмите «Пересканировать пакеты».
+Совет: при каждом нажатии играет случайный файл, так что 10+ чуть разных кликов звучат естественнее всего.
 ";
 			try {
 				File.WriteAllText(path, text);

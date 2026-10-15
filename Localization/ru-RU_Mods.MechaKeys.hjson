@@ -5,21 +5,61 @@ Configs: {
 		DisplayName: Mecha Keys
 
 		Headers: {
-			Preview: Превью
+			Preview: Mecha Keys
 			General: Общее
 			Keyboard: Клавиатура
 			Mouse: Мышь
-			Packs: Свои пакеты
+			Packs: Свои пакеты звуков
 		}
 
 		LogoPreview: {
 			Label: ""
-			Tooltip: ЛКМ — превью пакета клавиатуры. ПКМ — превью пакета мыши.
+			Tooltip: ЛКМ — послушать пакет клавиатуры, ПКМ — пакет мыши.
+		}
+
+		QuickPresets: {
+			Label: Быстрые пресеты
+			Tooltip: Один клик подбирает звук клавиатуры и мыши. Ниже всё можно донастроить.
 		}
 
 		Enabled: {
-			Label: Включено
-			Tooltip: Главный выключатель звуков нажатий. Клики слышны везде: в меню, инвентаре, чате и в игре.
+			Label: Включить звуки нажатий
+			Tooltip: Главный выключатель всех звуков Mecha Keys.
+		}
+
+		PlayWhen: {
+			Label: Когда играть клики
+			Tooltip:
+				'''
+				Везде: каждое нажатие, включая движение и горячие клавиши в игре.
+				Меню и ввод текста: только в меню, инвентаре, чате и полях ввода — WASD во время игры молчит.
+				Только ввод текста: только когда вы печатаете (чат, таблички, поиск, переименование).
+				'''
+		}
+
+		FollowGameVolume: {
+			Label: Учитывать громкость звука игры
+			Tooltip: Вкл.: клики тише вместе с ползунком «Звук» в Terraria. Выкл.: клики его игнорируют — удобно, если звуки игры приглушены.
+		}
+
+		PitchVariation: {
+			Label: Разброс высоты тона
+			Tooltip: Слегка меняет тон каждого клика, чтобы быстрый набор не звучал роботизированно. 0% — как записано.
+		}
+
+		HeavierBigKeys: {
+			Label: Глубже Пробел, Enter и Backspace
+			Tooltip: Большие клавиши звучат чуть ниже, как настоящий пробел со стабилизатором.
+		}
+
+		StereoKeys: {
+			Label: Стерео-клавиатура
+			Tooltip: Клавиши слева звучат из левого динамика, справа — из правого. Лучше всего в наушниках.
+		}
+
+		IgnoreModifiers: {
+			Label: Без звука для Shift, Ctrl, Alt и Win
+			Tooltip: Клавиши-модификаторы не щёлкают. Удобно, если в игре часто зажимаете Shift или Ctrl.
 		}
 
 		KeyboardSounds: {
@@ -28,23 +68,23 @@ Configs: {
 		}
 
 		KeyboardPack: {
-			Label: Пакет клавиатуры
-			Tooltip: ЛКМ — следующий пакет, ПКМ — предыдущий. Встроенные Cherry MX и всё, что вы положите в папку пакетов.
+			Label: Свитч
+			Tooltip: Стрелки (или ЛКМ / ПКМ по строке) листают свитчи. Каждая смена сразу проигрывает пример.
 		}
 
 		KeyboardVolume: {
 			Label: Громкость клавиатуры
-			Tooltip: Громкость кликов клавиатуры в процентах от игровой громкости Sound.
+			Tooltip: Громкость кликов клавиатуры.
 		}
 
 		KeyboardAmplify: {
 			Label: Усиление клавиатуры
-			Tooltip: Накладывает дополнительные копии того же клика. 1x — как есть, больше — громче и плотнее.
+			Tooltip: Проигрывает несколько копий клика одновременно. 1 — естественно; повышайте, только если на 100% всё ещё тихо.
 		}
 
 		TestKeyboard: {
-			Label: Тест клавиатуры
-			Tooltip: Проиграть пример из текущего пакета клавиатуры.
+			Label: Проверить звук клавиатуры
+			Tooltip: Проиграть пример текущего свитча.
 		}
 
 		MouseSounds: {
@@ -52,35 +92,115 @@ Configs: {
 			Tooltip: Клик по левой и правой кнопкам мыши.
 		}
 
+		MouseExtraButtons: {
+			Label: Также средняя и боковые кнопки
+			Tooltip: Щёлкают и колесо, и две боковые кнопки.
+		}
+
+		MouseSameAsKeyboard: {
+			Label: Мышь звучит как клавиатура
+			Tooltip: Вкл. — один звук для всего. Выкл. — отдельный звук мыши ниже.
+		}
+
 		MousePack: {
-			Label: Пакет мыши
-			Tooltip: Отдельный набор для мыши. ЛКМ — вперёд, ПКМ — назад.
+			Label: Свитч мыши
+			Tooltip: Сначала идут мышиные свитчи, но подойдёт любой пакет.
 		}
 
 		MouseVolume: {
 			Label: Громкость мыши
-			Tooltip: Громкость кликов мыши в процентах от игровой громкости Sound.
+			Tooltip: Громкость кликов мыши.
 		}
 
 		MouseAmplify: {
 			Label: Усиление мыши
-			Tooltip: Накладывает дополнительные копии клика мыши.
+			Tooltip: Несколько копий клика мыши одновременно. 1 — естественно.
 		}
 
 		TestMouse: {
-			Label: Тест мыши
-			Tooltip: Проиграть пример из текущего пакета мыши.
+			Label: Проверить звук мыши
+			Tooltip: Проиграть пример текущего свитча мыши.
 		}
 
 		OpenSoundFolder: {
 			Label: Открыть папку пакетов
-			Tooltip: Папка для своих .ogg / .wav или .zip. Не используйте .jar как пакеты звуков.
+			Tooltip: Кладите сюда .ogg / .wav, папки с ними или .zip. Подробности — в HOW_TO_ADD.txt внутри. Не используйте .jar.
 		}
 
 		RescanSoundFolder: {
-			Label: Пересканировать папку
-			Tooltip: Перечитать встроенные и свои пакеты после добавления файлов.
+			Label: Пересканировать пакеты
+			Tooltip: Перечитать пакеты после добавления или удаления файлов. Новые сразу появятся в списках.
 		}
+	}
+
+	PlayMode: {
+		Tooltip: ""
+
+		Everywhere: {
+			Label: Везде
+			Tooltip: ""
+		}
+
+		MenusAndTyping: {
+			Label: Меню и ввод текста
+			Tooltip: ""
+		}
+
+		TypingOnly: {
+			Label: Только ввод текста
+			Tooltip: ""
+		}
+	}
+}
+
+UI: {
+	SameAsKeyboard: как у клавиатуры
+	MouseLinked: Включено «Мышь звучит как клавиатура», поэтому эта настройка не используется.
+	Keyboard: Клавиатура
+	Mouse: Мышь
+	Off: ВЫКЛ
+	PackCount: Пакетов: {0}
+}
+
+Kinds: {
+	Linear: Линейный
+	Tactile: Тактильный
+	Clicky: Кликающий
+	Silent: Тихий
+	Special: Винтаж
+	Mouse: Мышь
+	Custom: Свой
+}
+
+Presets: {
+	Clicky: {
+		Label: Клик
+		Tooltip: Kailh Box Jade и классический клик мыши. Громко, чётко, приятно.
+	}
+
+	Tactile: {
+		Label: Тактиль
+		Tooltip: Holy Panda: округлый «бугорок» и глубокий удар в дно.
+	}
+
+	Linear: {
+		Label: Линейный
+		Tooltip: Плавный Gateron Yellow и чёткая оптическая мышь.
+	}
+
+	Thocky: {
+		Label: Глубокий
+		Tooltip: Смазанный Oil King с глубоким «thock» и мягкая мышь.
+	}
+
+	Retro: {
+		Label: Ретро
+		Tooltip: Старая клавиатура на пружинах (buckling spring): громко, звонко, узнаваемо.
+	}
+
+	Quiet: {
+		Label: Тихо
+		Tooltip: Тихие свитчи на 70% громкости. Для поздних вечеров.
 	}
 }
 
@@ -92,14 +212,56 @@ Packs: {
 	cherrymx_brown_abs: Cherry MX Brown ABS
 	cherrymx_brown_pbt: Cherry MX Brown PBT
 	cherrymx_red_abs: Cherry MX Red ABS
+	gateron_yellow: Gateron Yellow
+	oil_king: Oil King
+	kailh_choc_red: Kailh Choc Red
+	holy_panda: Holy Panda
+	kailh_box_jade: Kailh Box Jade
+	kailh_box_navy: Kailh Box Navy
+	alps_skcm_blue: Alps SKCM Blue
+	silent_linear: Тихий линейный
+	boba_u4: Boba U4 (тихий тактильный)
+	topre: Topre
+	buckling_spring: Buckling Spring
+	membrane: Офисная мембранка
+	typewriter: Печатная машинка
+	mouse_classic: Мышь: микрик
+	mouse_optical: Мышь: оптика
+	mouse_silent: Мышь: тихая
 	hit: Hit
 	hit1: Hit 1
 	hit2: Hit 2
 	hit3: Hit 3
 	hit4: Hit 4
-	hit5: Laser
-	hit6: Ponk
-	hit7: Corsair LMB
-	hit8: Corsair MMB
+	hit5: Лазер
+	hit6: Понк
+	hit7: Corsair ЛКМ
+	hit8: Corsair СКМ
 	single: Single
+}
+
+PackInfo: {
+	cherrymx_red_abs: Лёгкий плавный линейный с чистым пластиковым щелчком.
+	cherrymx_black_abs: Более тугой линейный, глубже и плотнее.
+	cherrymx_black_pbt: Тугой линейный с толстыми PBT-кейкапами: приглушённо и плотно.
+	cherrymx_brown_abs: Мягкий тактильный бугорок без клика.
+	cherrymx_brown_pbt: Мягкий тактильный бугорок, глубже из-за PBT.
+	cherrymx_blue_abs: Классический кликающий свитч.
+	cherrymx_blue_abs_2: Классический кликающий свитч, другая запись.
+	gateron_yellow: Маслянисто-плавный линейный с ярким звонким дном.
+	oil_king: Смазанный тугой линейный с глубоким «thock».
+	kailh_choc_red: Низкопрофильный линейный: короткий, лёгкий, бодрый.
+	holy_panda: Крупный округлый бугорок и глубокий полный удар в дно.
+	kailh_box_jade: Свитч с клик-баром: очень чёткий клик при нажатии и отпускании.
+	kailh_box_navy: Тугой клик-бар: самый громкий и «мясистый» клик.
+	alps_skcm_blue: Винтажный Alps: резкий, высокий, чуть шершавый клик.
+	silent_linear: Демпфированный линейный. Почти неслышно.
+	boba_u4: Тихий тактильный: мягкий бугорок и глухое дно.
+	topre: Резиновый купол над пружиной: приглушённый «thock» и знаменитый звук отпускания.
+	buckling_spring: Старая школа: громкий щелчок пружины и звон.
+	membrane: Дешёвая офисная клавиатура: вязко, пластиково, чуть дребезжит.
+	typewriter: Удар механической печатной машинки.
+	mouse_classic: Обычный микропереключатель мыши.
+	mouse_optical: Чёткий высокий оптический игровой свитч.
+	mouse_silent: Приглушённый клик мыши.
 }

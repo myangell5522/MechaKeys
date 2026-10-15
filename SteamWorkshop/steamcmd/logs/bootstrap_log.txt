@@ -1,0 +1,247 @@
+
+
+[2026-10-15 22:42:02] Startup - updater built Dec  2 2013 18:43:44
+[2026-10-15 22:42:02] Checking for update on startup
+[2026-10-15 22:42:02] Checking for available update...
+[2026-10-15 22:42:14] Download failed: http error 0
+[2026-10-15 22:42:14] Package file steamcmd_public_all.zip.ea97f8fd711e4ae492274da96e83bf31eb804528 missing or incorrect size
+[2026-10-15 22:42:14] Package file steamcmd_bins_win32.zip.7ae579f513787b332395a86b4515b400c2f57eaa missing or incorrect size
+[2026-10-15 22:42:14] Package file steamcmd_steamservice_win32.zip.27fe69fc971de8c9fe785daa7a934921369d725b missing or incorrect size
+[2026-10-15 22:42:14] Package file steamcmd_steamerrorreporter_win32.zip.e8bd4e7243ba4a8745195d2435b4ed2a9a7d8aa2 missing or incorrect size
+[2026-10-15 22:42:14] Package file steamcmd_siteserverui_win32.zip.4760659039c6d35313324e11ff600d519924b220 missing or incorrect size
+[2026-10-15 22:42:14] Package file steamcmd_win32.zip.ae4a6f47ec93a6d7c6216d3a0638060ffd31dc62 missing or incorrect size
+[2026-10-15 22:42:14] Downloading update (0 of 43,472 KB)...
+
+
+[2026-10-15 22:42:29] Startup - updater built Dec  2 2013 18:43:44
+[2026-10-15 22:42:29] Checking for update on startup
+[2026-10-15 22:42:29] Checking for available update...
+[2026-10-15 22:42:31] Download failed: http error 0
+[2026-10-15 22:42:31] Package file steamcmd_public_all.zip.ea97f8fd711e4ae492274da96e83bf31eb804528 missing or incorrect size
+[2026-10-15 22:42:31] Package file steamcmd_bins_win32.zip.7ae579f513787b332395a86b4515b400c2f57eaa missing or incorrect size
+[2026-10-15 22:42:31] Package file steamcmd_steamservice_win32.zip.27fe69fc971de8c9fe785daa7a934921369d725b missing or incorrect size
+[2026-10-15 22:42:31] Package file steamcmd_steamerrorreporter_win32.zip.e8bd4e7243ba4a8745195d2435b4ed2a9a7d8aa2 missing or incorrect size
+[2026-10-15 22:42:31] Package file steamcmd_siteserverui_win32.zip.4760659039c6d35313324e11ff600d519924b220 missing or incorrect size
+[2026-10-15 22:42:31] Package file steamcmd_win32.zip.ae4a6f47ec93a6d7c6216d3a0638060ffd31dc62 missing or incorrect size
+[2026-10-15 22:42:31] Downloading update (0 of 43,472 KB)...
+[2026-10-15 22:42:31] Error: Download of package (steamcmd_win32) failed after 0 bytes (0).
+[2026-10-15 22:42:31] Error: Download of package (steamcmd_siteserverui_win32) failed after 0 bytes (0).
+[2026-10-15 22:42:31] Error: Download of package (steamcmd_steamerrorreporter_win32) failed after 0 bytes (0).
+[2026-10-15 22:42:31] Error: Download of package (steamcmd_steamservice_win32) failed after 0 bytes (0).
+[2026-10-15 22:42:31] Error: Download of package (steamcmd_bins_win32) failed after 0 bytes (0).
+[2026-10-15 22:42:31] Error: Download of package (steamcmd_public_all) failed after 0 bytes (0).
+[2026-10-15 22:42:31] Package file steamcmd_public_all.zip.ea97f8fd711e4ae492274da96e83bf31eb804528 missing or incorrect size
+[2026-10-15 22:42:31] Package file steamcmd_bins_win32.zip.7ae579f513787b332395a86b4515b400c2f57eaa missing or incorrect size
+[2026-10-15 22:42:31] Package file steamcmd_steamservice_win32.zip.27fe69fc971de8c9fe785daa7a934921369d725b missing or incorrect size
+[2026-10-15 22:42:31] Package file steamcmd_steamerrorreporter_win32.zip.e8bd4e7243ba4a8745195d2435b4ed2a9a7d8aa2 missing or incorrect size
+[2026-10-15 22:42:31] Package file steamcmd_siteserverui_win32.zip.4760659039c6d35313324e11ff600d519924b220 missing or incorrect size
+[2026-10-15 22:42:31] Package file steamcmd_win32.zip.ae4a6f47ec93a6d7c6216d3a0638060ffd31dc62 missing or incorrect size
+[2026-10-15 22:42:32] Downloading update (4,057 of 43,472 KB)...
+[2026-10-15 22:42:32] Downloading update (11,458 of 43,472 KB)...
+[2026-10-15 22:42:32] Downloading update (18,173 of 43,472 KB)...
+[2026-10-15 22:42:32] Downloading update (22,989 of 43,472 KB)...
+[2026-10-15 22:42:33] Downloading update (27,909 of 43,472 KB)...
+[2026-10-15 22:42:33] Downloading update (33,450 of 43,472 KB)...
+[2026-10-15 22:42:33] Downloading update (35,753 of 43,472 KB)...
+[2026-10-15 22:42:33] Downloading update (38,703 of 43,472 KB)...
+[2026-10-15 22:42:34] Downloading update (41,092 of 43,472 KB)...
+[2026-10-15 22:42:34] Downloading update (43,446 of 43,472 KB)...
+[2026-10-15 22:42:34] Downloading update (43,472 of 43,472 KB)...
+[2026-10-15 22:42:34] Download Complete.
+[2026-10-15 22:42:34] uninstalled manifest found in C:\Users\myangell\Documents\My Games\Terraria\tModLoader\ModSources\swapmyaudio\workshop\steamcmd\package\steam_cmd_win32 (1).
+[2026-10-15 22:42:34] Found pending update
+[2026-10-15 22:42:34] Applying update...
+[2026-10-15 22:42:34] Extracting package...
+[2026-10-15 22:42:35] Installing update...
+[2026-10-15 22:42:36] Committing NTFS transaction (0 non-transactional backup files)
+[2026-10-15 22:42:36] Cleaning up...
+[2026-10-15 22:42:36] Update complete, launching...
+[2026-10-15 22:42:36] Shutdown
+
+
+[2026-10-15 22:45:15] Startup - updater built Oct 13 2026 11:45:33
+[2026-10-15 22:45:15] Startup - Steam Client launched with: "C:\Users\myangell\Documents\My Games\Terraria\tModLoader\ModSources\swapmyaudio\workshop\steamcmd\steamcmd.exe"   <+156 truncated>
+[2026-10-15 22:45:15] Windows 10.0.26200.0, 0, 2, 256, 1, 48 
+[2026-10-15 22:45:15] Loading cached metrics from disk (C:\Users\myangell\Documents\My Games\Terraria\tModLoader\ModSources\swapmyaudio\workshop\steamcmd\package\steam_cmd_metrics.bin)
+[2026-10-15 22:45:15] Failed to load cached hosts file (File 'update_hosts_cached.vdf' not found), using defaults
+[2026-10-15 22:45:15] Using the following download hosts for Public, Realm steamglobal
+[2026-10-15 22:45:15] 1. https://client-update.steamstatic.com, /, Realm 'steamglobal', weight was 1, source = 'baked in'
+[2026-10-15 22:45:15] Checking for update on startup
+[2026-10-15 22:45:15] Проверка на наличие обновлений...
+[2026-10-15 22:45:15] Downloading manifest: https://client-update.steamstatic.com/steam_cmd_win64
+[2026-10-15 22:45:15] Manifest download: send request
+[2026-10-15 22:45:15] Manifest download: waiting for download to finish
+[2026-10-15 22:45:16] Manifest download: finished
+[2026-10-15 22:45:16] Download skipped: /steam_cmd_win64 version 1791918946, installed version 1791918946, existing pending version 0
+[2026-10-15 22:45:16] Nothing to do
+[2026-10-15 22:45:16] Проверка установки...
+[2026-10-15 22:45:16] Verifying all executable checksums
+[2026-10-15 22:45:16] Verification complete
+[2026-10-15 22:45:36] Shutdown
+
+
+[2026-10-15 22:46:08] Startup - updater built Oct 13 2026 11:45:33
+[2026-10-15 22:46:08] Startup - Steam Client launched with: "C:\Users\myangell\Documents\My Games\Terraria\tModLoader\ModSources\swapmyaudio\workshop\steamcmd\steamcmd.exe"   <+156 truncated>
+[2026-10-15 22:46:08] Windows 10.0.26200.0, 0, 2, 256, 1, 48 
+[2026-10-15 22:46:08] Loading cached metrics from disk (C:\Users\myangell\Documents\My Games\Terraria\tModLoader\ModSources\swapmyaudio\workshop\steamcmd\package\steam_cmd_metrics.bin)
+[2026-10-15 22:46:08] Failed to load cached hosts file (File 'update_hosts_cached.vdf' not found), using defaults
+[2026-10-15 22:46:08] Using the following download hosts for Public, Realm steamglobal
+[2026-10-15 22:46:08] 1. https://client-update.steamstatic.com, /, Realm 'steamglobal', weight was 1, source = 'baked in'
+[2026-10-15 22:46:08] Checking for update on startup
+[2026-10-15 22:46:08] Проверка на наличие обновлений...
+[2026-10-15 22:46:08] Downloading manifest: https://client-update.steamstatic.com/steam_cmd_win64
+[2026-10-15 22:46:08] Manifest download: send request
+[2026-10-15 22:46:08] Manifest download: waiting for download to finish
+[2026-10-15 22:46:09] Manifest download: finished
+[2026-10-15 22:46:09] Download skipped: /steam_cmd_win64 version 1791918946, installed version 1791918946, existing pending version 0
+[2026-10-15 22:46:09] Nothing to do
+[2026-10-15 22:46:09] Проверка установки...
+[2026-10-15 22:46:09] Verifying all executable checksums
+[2026-10-15 22:46:09] Verification complete
+[2026-10-15 22:46:21] Shutdown
+
+
+[2026-10-15 22:47:45] Startup - updater built Oct 13 2026 11:45:33
+[2026-10-15 22:47:45] Startup - Steam Client launched with: "C:\Users\myangell\Documents\My Games\Terraria\tModLoader\ModSources\swapmyaudio\workshop\steamcmd\steamcmd.exe"   <+156 truncated>
+[2026-10-15 22:47:45] Windows 10.0.26200.0, 0, 2, 256, 1, 48 
+[2026-10-15 22:47:45] Loading cached metrics from disk (C:\Users\myangell\Documents\My Games\Terraria\tModLoader\ModSources\swapmyaudio\workshop\steamcmd\package\steam_cmd_metrics.bin)
+[2026-10-15 22:47:45] Failed to load cached hosts file (File 'update_hosts_cached.vdf' not found), using defaults
+[2026-10-15 22:47:45] Using the following download hosts for Public, Realm steamglobal
+[2026-10-15 22:47:45] 1. https://client-update.steamstatic.com, /, Realm 'steamglobal', weight was 1, source = 'baked in'
+[2026-10-15 22:47:45] Checking for update on startup
+[2026-10-15 22:47:45] Проверка на наличие обновлений...
+[2026-10-15 22:47:45] Downloading manifest: https://client-update.steamstatic.com/steam_cmd_win64
+[2026-10-15 22:47:45] Manifest download: send request
+[2026-10-15 22:47:46] Manifest download: waiting for download to finish
+[2026-10-15 22:47:46] Manifest download: finished
+[2026-10-15 22:47:46] Download skipped: /steam_cmd_win64 version 1791918946, installed version 1791918946, existing pending version 0
+[2026-10-15 22:47:46] Nothing to do
+[2026-10-15 22:47:46] Проверка установки...
+[2026-10-15 22:47:46] Verifying all executable checksums
+[2026-10-15 22:47:46] Verification complete
+[2026-10-15 22:47:57] Shutdown
+
+
+[2026-10-15 22:51:43] Startup - updater built Oct 13 2026 11:45:33
+[2026-10-15 22:51:43] Startup - Steam Client launched with: "C:\Users\myangell\Documents\My Games\Terraria\tModLoader\ModSources\swapmyaudio\workshop\steamcmd\steamcmd.exe"   <+156 truncated>
+[2026-10-15 22:51:43] Windows 10.0.26200.0, 0, 2, 256, 1, 48 
+[2026-10-15 22:51:43] Loading cached metrics from disk (C:\Users\myangell\Documents\My Games\Terraria\tModLoader\ModSources\swapmyaudio\workshop\steamcmd\package\steam_cmd_metrics.bin)
+[2026-10-15 22:51:43] Failed to load cached hosts file (File 'update_hosts_cached.vdf' not found), using defaults
+[2026-10-15 22:51:43] Using the following download hosts for Public, Realm steamglobal
+[2026-10-15 22:51:43] 1. https://client-update.steamstatic.com, /, Realm 'steamglobal', weight was 1, source = 'baked in'
+[2026-10-15 22:51:43] Checking for update on startup
+[2026-10-15 22:51:43] Проверка на наличие обновлений...
+[2026-10-15 22:51:43] Downloading manifest: https://client-update.steamstatic.com/steam_cmd_win64
+[2026-10-15 22:51:43] Manifest download: send request
+[2026-10-15 22:51:43] Manifest download: waiting for download to finish
+[2026-10-15 22:51:44] Manifest download: finished
+[2026-10-15 22:51:44] Download skipped: /steam_cmd_win64 version 1791918946, installed version 1791918946, existing pending version 0
+[2026-10-15 22:51:44] Nothing to do
+[2026-10-15 22:51:44] Проверка установки...
+[2026-10-15 22:51:44] Verifying all executable checksums
+[2026-10-15 22:51:44] Verification complete
+[2026-10-15 22:51:49] Shutdown
+
+
+[2026-10-15 22:52:00] Startup - updater built Oct 13 2026 11:45:33
+[2026-10-15 22:52:00] Startup - Steam Client launched with: "C:\Users\myangell\Documents\My Games\Terraria\tModLoader\ModSources\swapmyaudio\workshop\steamcmd\steamcmd.exe"   <+156 truncated>
+[2026-10-15 22:52:00] Windows 10.0.26200.0, 0, 2, 256, 1, 48 
+[2026-10-15 22:52:00] Loading cached metrics from disk (C:\Users\myangell\Documents\My Games\Terraria\tModLoader\ModSources\swapmyaudio\workshop\steamcmd\package\steam_cmd_metrics.bin)
+[2026-10-15 22:52:00] Failed to load cached hosts file (File 'update_hosts_cached.vdf' not found), using defaults
+[2026-10-15 22:52:00] Using the following download hosts for Public, Realm steamglobal
+[2026-10-15 22:52:00] 1. https://client-update.steamstatic.com, /, Realm 'steamglobal', weight was 1, source = 'baked in'
+[2026-10-15 22:52:00] Checking for update on startup
+[2026-10-15 22:52:00] Проверка на наличие обновлений...
+[2026-10-15 22:52:00] Downloading manifest: https://client-update.steamstatic.com/steam_cmd_win64
+[2026-10-15 22:52:00] Manifest download: send request
+[2026-10-15 22:52:01] Manifest download: waiting for download to finish
+[2026-10-15 22:52:01] Manifest download: finished
+[2026-10-15 22:52:01] Download skipped: /steam_cmd_win64 version 1791918946, installed version 1791918946, existing pending version 0
+[2026-10-15 22:52:01] Nothing to do
+[2026-10-15 22:52:01] Проверка установки...
+[2026-10-15 22:52:01] Verifying all executable checksums
+[2026-10-15 22:52:01] Verification complete
+[2026-10-15 22:52:12] Shutdown
+
+
+[2026-10-15 22:59:52] Startup - updater built Oct 13 2026 11:45:33
+[2026-10-15 22:59:52] Startup - Steam Client launched with: "C:\Users\myangell\Documents\My Games\Terraria\tModLoader\ModSources\swapmyaudio\workshop\steamcmd\steamcmd.exe"   <+156 truncated>
+[2026-10-15 22:59:52] Windows 10.0.26200.0, 0, 2, 256, 1, 48 
+[2026-10-15 22:59:52] Loading cached metrics from disk (C:\Users\myangell\Documents\My Games\Terraria\tModLoader\ModSources\swapmyaudio\workshop\steamcmd\package\steam_cmd_metrics.bin)
+[2026-10-15 22:59:52] Failed to load cached hosts file (File 'update_hosts_cached.vdf' not found), using defaults
+[2026-10-15 22:59:52] Using the following download hosts for Public, Realm steamglobal
+[2026-10-15 22:59:52] 1. https://client-update.steamstatic.com, /, Realm 'steamglobal', weight was 1, source = 'baked in'
+[2026-10-15 22:59:52] Checking for update on startup
+[2026-10-15 22:59:52] Проверка на наличие обновлений...
+[2026-10-15 22:59:52] Downloading manifest: https://client-update.steamstatic.com/steam_cmd_win64
+[2026-10-15 22:59:52] Manifest download: send request
+[2026-10-15 22:59:52] Manifest download: waiting for download to finish
+[2026-10-15 22:59:53] Manifest download: finished
+[2026-10-15 22:59:53] Download skipped: /steam_cmd_win64 version 1791918946, installed version 1791918946, existing pending version 0
+[2026-10-15 22:59:53] Nothing to do
+[2026-10-15 22:59:53] Проверка установки...
+[2026-10-15 22:59:53] Verifying all executable checksums
+[2026-10-15 22:59:53] Verification complete
+
+
+[2026-10-15 23:00:19] Startup - updater built Oct 13 2026 11:45:33
+[2026-10-15 23:00:19] Startup - Steam Client launched with: "C:\Users\myangell\Documents\My Games\Terraria\tModLoader\ModSources\swapmyaudio\workshop\steamcmd\steamcmd.exe"   <+156 truncated>
+[2026-10-15 23:00:19] Windows 10.0.26200.0, 0, 2, 256, 1, 48 
+[2026-10-15 23:00:19] Loading cached metrics from disk (C:\Users\myangell\Documents\My Games\Terraria\tModLoader\ModSources\swapmyaudio\workshop\steamcmd\package\steam_cmd_metrics.bin)
+[2026-10-15 23:00:19] Failed to load cached hosts file (File 'update_hosts_cached.vdf' not found), using defaults
+[2026-10-15 23:00:19] Using the following download hosts for Public, Realm steamglobal
+[2026-10-15 23:00:19] 1. https://client-update.steamstatic.com, /, Realm 'steamglobal', weight was 1, source = 'baked in'
+[2026-10-15 23:00:19] Checking for update on startup
+[2026-10-15 23:00:19] Проверка на наличие обновлений...
+[2026-10-15 23:00:19] Downloading manifest: https://client-update.steamstatic.com/steam_cmd_win64
+[2026-10-15 23:00:19] Manifest download: send request
+[2026-10-15 23:00:20] Manifest download: waiting for download to finish
+[2026-10-15 23:00:20] Manifest download: finished
+[2026-10-15 23:00:20] Download skipped: /steam_cmd_win64 version 1791918946, installed version 1791918946, existing pending version 0
+[2026-10-15 23:00:20] Nothing to do
+[2026-10-15 23:00:20] Проверка установки...
+[2026-10-15 23:00:20] Verifying all executable checksums
+[2026-10-15 23:00:20] Verification complete
+
+
+[2026-10-15 23:00:56] Startup - updater built Oct 13 2026 11:45:33
+[2026-10-15 23:00:56] Startup - Steam Client launched with: "C:\Users\myangell\Documents\My Games\Terraria\tModLoader\ModSources\swapmyaudio\workshop\steamcmd\steamcmd.exe"   <+156 truncated>
+[2026-10-15 23:00:56] Windows 10.0.26200.0, 0, 2, 256, 1, 48 
+[2026-10-15 23:00:56] Loading cached metrics from disk (C:\Users\myangell\Documents\My Games\Terraria\tModLoader\ModSources\swapmyaudio\workshop\steamcmd\package\steam_cmd_metrics.bin)
+[2026-10-15 23:00:56] Failed to load cached hosts file (File 'update_hosts_cached.vdf' not found), using defaults
+[2026-10-15 23:00:56] Using the following download hosts for Public, Realm steamglobal
+[2026-10-15 23:00:56] 1. https://client-update.steamstatic.com, /, Realm 'steamglobal', weight was 1, source = 'baked in'
+[2026-10-15 23:00:56] Checking for update on startup
+[2026-10-15 23:00:56] Проверка на наличие обновлений...
+[2026-10-15 23:00:56] Downloading manifest: https://client-update.steamstatic.com/steam_cmd_win64
+[2026-10-15 23:00:56] Manifest download: send request
+[2026-10-15 23:00:56] Manifest download: waiting for download to finish
+[2026-10-15 23:00:58] Manifest download: finished
+[2026-10-15 23:00:58] Download skipped: /steam_cmd_win64 version 1791918946, installed version 1791918946, existing pending version 0
+[2026-10-15 23:00:58] Nothing to do
+[2026-10-15 23:00:58] Проверка установки...
+[2026-10-15 23:00:58] Verifying all executable checksums
+[2026-10-15 23:00:58] Verification complete
+[2026-10-15 23:01:14] Clearing cached metrics (C:\Users\myangell\Documents\My Games\Terraria\tModLoader\ModSources\swapmyaudio\workshop\steamcmd\package\steam_cmd_metrics.bin)
+[2026-10-15 23:01:28] Shutdown
+
+
+[2026-10-15 23:57:48] Startup - updater built Oct 13 2026 11:45:33
+[2026-10-15 23:57:48] Startup - Steam Client launched with: "C:\Users\myangell\Documents\My Games\Terraria\tModLoader\ModSources\MechaKeys\SteamWorkshop\steamcmd\steamcmd.exe"  <+169 truncated>
+[2026-10-15 23:57:48] Windows 10.0.26200.0, 0, 2, 256, 1, 48 
+[2026-10-15 23:57:48] Using the following download hosts for Public, Realm steamglobal
+[2026-10-15 23:57:48] 1. https://client-update.fastly.steamstatic.com, /, Realm 'steamglobal', weight was 900, source = 'update_hosts_cached.vdf'
+[2026-10-15 23:57:48] 2. https://client-update.akamai.steamstatic.com, /, Realm 'steamglobal', weight was 400, source = 'update_hosts_cached.vdf'
+[2026-10-15 23:57:48] 3. https://client-update.steamstatic.com, /, Realm 'steamglobal', weight was 1, source = 'baked in'
+[2026-10-15 23:57:48] Checking for update on startup
+[2026-10-15 23:57:48] Проверка на наличие обновлений...
+[2026-10-15 23:57:48] Downloading manifest: https://client-update.fastly.steamstatic.com/steam_cmd_win64
+[2026-10-15 23:57:48] Manifest download: send request
+[2026-10-15 23:57:49] Manifest download: waiting for download to finish
+[2026-10-15 23:57:49] Manifest download: finished
+[2026-10-15 23:57:49] Download skipped: /steam_cmd_win64 version 1791918946, installed version 1791918946, existing pending version 0
+[2026-10-15 23:57:49] Nothing to do
+[2026-10-15 23:57:49] Проверка установки...
+[2026-10-15 23:57:49] Verifying all executable checksums
+[2026-10-15 23:57:49] Verification complete
+[2026-10-15 23:57:59] Shutdown

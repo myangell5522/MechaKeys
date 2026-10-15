@@ -5,21 +5,61 @@ Configs: {
 		DisplayName: Mecha Keys
 
 		Headers: {
-			Preview: Preview
+			Preview: Mecha Keys
 			General: General
 			Keyboard: Keyboard
 			Mouse: Mouse
-			Packs: Custom packs
+			Packs: Custom sound packs
 		}
 
 		LogoPreview: {
 			Label: ""
-			Tooltip: Left click previews the keyboard pack. Right click previews the mouse pack.
+			Tooltip: Left click to hear your keyboard pack, right click to hear your mouse pack.
+		}
+
+		QuickPresets: {
+			Label: Quick presets
+			Tooltip: One click sets a matching keyboard and mouse sound. You can still fine-tune everything below.
 		}
 
 		Enabled: {
-			Label: Enabled
-			Tooltip: Master switch for mechanical click sounds. Clicks play everywhere: menus, inventory, chat, and gameplay.
+			Label: Enable click sounds
+			Tooltip: Master switch for every Mecha Keys sound.
+		}
+
+		PlayWhen: {
+			Label: Play clicks
+			Tooltip:
+				'''
+				Everywhere: every key press, including movement and hotkeys during gameplay.
+				Menus and typing: only in menus, inventory, chat and text boxes, so WASD stays quiet while you play.
+				Typing only: only while you type text (chat, signs, search, renaming).
+				'''
+		}
+
+		FollowGameVolume: {
+			Label: Follow game Sound volume
+			Tooltip: On: clicks get quieter with Terraria's Sound slider. Off: clicks ignore it, handy if you keep game sounds low.
+		}
+
+		PitchVariation: {
+			Label: Pitch variation
+			Tooltip: Randomly nudges the pitch of every click so fast typing never sounds robotic. 0% plays every sample as recorded.
+		}
+
+		HeavierBigKeys: {
+			Label: Deeper Space, Enter and Backspace
+			Tooltip: Big keys play a slightly deeper click, like a real stabilized spacebar.
+		}
+
+		StereoKeys: {
+			Label: Stereo keyboard
+			Tooltip: Keys on the left of your keyboard sound from the left speaker, keys on the right from the right. Best with headphones.
+		}
+
+		IgnoreModifiers: {
+			Label: Silence Shift, Ctrl, Alt and Win
+			Tooltip: Modifier keys make no sound. Useful if you hold Shift or Ctrl a lot while playing.
 		}
 
 		KeyboardSounds: {
@@ -28,59 +68,139 @@ Configs: {
 		}
 
 		KeyboardPack: {
-			Label: Keyboard pack
-			Tooltip: Left click for the next pack, right click for the previous. Cycles through built-in Cherry MX sets and anything you add to the sound pack folder.
+			Label: Switch
+			Tooltip: Click the arrows (or left / right click anywhere on this row) to browse switches. Each change plays a preview.
 		}
 
 		KeyboardVolume: {
 			Label: Keyboard volume
-			Tooltip: Volume of keyboard clicks, as a percent of the game's Sound volume.
+			Tooltip: Volume of keyboard clicks.
 		}
 
 		KeyboardAmplify: {
-			Label: Keyboard amplify
-			Tooltip: Stacks extra copies of the same click. 1x is natural, higher values are louder and denser.
+			Label: Keyboard boost
+			Tooltip: Plays extra copies of every click at once. 1 is natural; raise it only if clicks are still too quiet at 100% volume.
 		}
 
 		TestKeyboard: {
-			Label: Test keyboard
-			Tooltip: Play a sample from the current keyboard pack.
+			Label: Test keyboard sound
+			Tooltip: Play a sample from the current switch.
 		}
 
 		MouseSounds: {
 			Label: Mouse sounds
-			Tooltip: Play a click on left and right mouse buttons.
+			Tooltip: Play a click on the left and right mouse buttons.
+		}
+
+		MouseExtraButtons: {
+			Label: Also middle and side buttons
+			Tooltip: The middle (wheel) button and the two side buttons click too.
+		}
+
+		MouseSameAsKeyboard: {
+			Label: Mouse uses the keyboard switch
+			Tooltip: Turn on to use one sound for everything. Turn off to pick a separate mouse sound below.
 		}
 
 		MousePack: {
-			Label: Mouse pack
-			Tooltip: Separate sound set for mouse clicks. Left click cycles forward, right click cycles back.
+			Label: Mouse switch
+			Tooltip: Mouse switches are listed first, but any pack works.
 		}
 
 		MouseVolume: {
 			Label: Mouse volume
-			Tooltip: Volume of mouse clicks, as a percent of the game's Sound volume.
+			Tooltip: Volume of mouse clicks.
 		}
 
 		MouseAmplify: {
-			Label: Mouse amplify
-			Tooltip: Stacks extra copies of the same mouse click.
+			Label: Mouse boost
+			Tooltip: Plays extra copies of every mouse click at once. 1 is natural.
 		}
 
 		TestMouse: {
-			Label: Test mouse
-			Tooltip: Play a sample from the current mouse pack.
+			Label: Test mouse sound
+			Tooltip: Play a sample from the current mouse switch.
 		}
 
 		OpenSoundFolder: {
 			Label: Open sound pack folder
-			Tooltip: Opens the folder where you drop custom .ogg / .wav files or .zip packs. Never use .jar files as sound packs.
+			Tooltip: Drop .ogg / .wav files, folders of them, or .zip packs here. A HOW_TO_ADD.txt inside explains the details. Never use .jar files.
 		}
 
 		RescanSoundFolder: {
-			Label: Rescan sounds folder
-			Tooltip: Reload built-in and custom packs after adding files.
+			Label: Rescan sound packs
+			Tooltip: Reload all packs after you add or remove files. New packs appear in the switch lists right away.
 		}
+	}
+
+	PlayMode: {
+		Tooltip: ""
+
+		Everywhere: {
+			Label: Everywhere
+			Tooltip: ""
+		}
+
+		MenusAndTyping: {
+			Label: Menus and typing
+			Tooltip: ""
+		}
+
+		TypingOnly: {
+			Label: Typing only
+			Tooltip: ""
+		}
+	}
+}
+
+UI: {
+	SameAsKeyboard: same as keyboard
+	MouseLinked: '''"Mouse uses the keyboard switch" is on, so this setting is not used.'''
+	Keyboard: Keyboard
+	Mouse: Mouse
+	Off: OFF
+	PackCount: "{0} packs"
+}
+
+Kinds: {
+	Linear: Linear
+	Tactile: Tactile
+	Clicky: Clicky
+	Silent: Silent
+	Special: Vintage
+	Mouse: Mouse
+	Custom: Custom
+}
+
+Presets: {
+	Clicky: {
+		Label: Clicky
+		Tooltip: Kailh Box Jade keyboard with a classic mouse click. Loud, crisp, satisfying.
+	}
+
+	Tactile: {
+		Label: Tactile
+		Tooltip: Holy Panda keyboard: a rounded bump with a deep bottom-out.
+	}
+
+	Linear: {
+		Label: Linear
+		Tooltip: Smooth Gateron Yellow keyboard with a crisp optical mouse.
+	}
+
+	Thocky: {
+		Label: Thocky
+		Tooltip: Deep, lubed Oil King keyboard with a soft mouse.
+	}
+
+	Retro: {
+		Label: Retro
+		Tooltip: An old buckling spring board: loud, springy, unmistakable.
+	}
+
+	Quiet: {
+		Label: Quiet
+		Tooltip: Dampened silent switches at 70% volume. Good for late nights.
 	}
 }
 
@@ -92,6 +212,22 @@ Packs: {
 	cherrymx_brown_abs: Cherry MX Brown ABS
 	cherrymx_brown_pbt: Cherry MX Brown PBT
 	cherrymx_red_abs: Cherry MX Red ABS
+	gateron_yellow: Gateron Yellow
+	oil_king: Oil King
+	kailh_choc_red: Kailh Choc Red
+	holy_panda: Holy Panda
+	kailh_box_jade: Kailh Box Jade
+	kailh_box_navy: Kailh Box Navy
+	alps_skcm_blue: Alps SKCM Blue
+	silent_linear: Silent Linear
+	boba_u4: Boba U4 (Silent Tactile)
+	topre: Topre
+	buckling_spring: Buckling Spring
+	membrane: Office Membrane
+	typewriter: Typewriter
+	mouse_classic: Mouse Micro Switch
+	mouse_optical: Mouse Optical
+	mouse_silent: Mouse Silent
 	hit: Hit
 	hit1: Hit 1
 	hit2: Hit 2
@@ -102,4 +238,30 @@ Packs: {
 	hit7: Corsair LMB
 	hit8: Corsair MMB
 	single: Single
+}
+
+PackInfo: {
+	cherrymx_red_abs: Light, smooth linear with a clean plastic clack.
+	cherrymx_black_abs: Heavier linear, deeper and more solid.
+	cherrymx_black_pbt: Heavy linear with thicker PBT caps: muted and solid.
+	cherrymx_brown_abs: Soft tactile bump, no click.
+	cherrymx_brown_pbt: Soft tactile bump with deeper PBT caps.
+	cherrymx_blue_abs: The classic clicky switch.
+	cherrymx_blue_abs_2: The classic clicky switch, alternate recording.
+	gateron_yellow: Buttery smooth linear with a bright, poppy bottom-out.
+	oil_king: Lubed, heavy linear with a deep "thock".
+	kailh_choc_red: Low-profile linear: short, light and snappy.
+	holy_panda: Big rounded tactile bump with a deep, full bottom-out.
+	kailh_box_jade: Click bar switch: very crisp click on press and release.
+	kailh_box_navy: Heavy click bar switch: the loudest, chunkiest click.
+	alps_skcm_blue: Vintage Alps click: sharp, high and a little scratchy.
+	silent_linear: Dampened linear. Barely there.
+	boba_u4: Silent tactile: a soft bump and a muffled bottom-out.
+	topre: Rubber dome over a spring: a muted "thock" with a famous upstroke.
+	buckling_spring: Old-school buckling spring: loud snap and a springy ring.
+	membrane: Cheap office keyboard: mushy, plasticky and a little rattly.
+	typewriter: A manual typewriter keystroke, typebar and all.
+	mouse_classic: Standard mouse micro switch.
+	mouse_optical: Crisp, high-pitched optical gaming switch.
+	mouse_silent: Muted mouse click.
 }

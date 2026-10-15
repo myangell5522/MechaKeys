@@ -22,6 +22,7 @@ namespace MechaKeys
 			ClickAudio.Unload();
 			SoundPackCatalog.Unload();
 			LogoAnim.Unload();
+			ModIconAnimator.Unload();
 		}
 	}
 }
