@@ -95,3 +95,27 @@
 [2026-10-15 23:57:55] UpdatesJob: finished OK, apps updated 0 (0 KB), packages updated 0 (0 KB)
 [2026-10-15 23:57:59] ThreadedWriteToDisk: writing appinfo cache to: C:\Users\myangell\Documents\My Games\Terraria\tModLoader\ModSources\MechaKeys\SteamWorkshop\steamcmd/appcache/appinfo.vdf
 [2026-10-15 23:57:59] App cache write succeeded C:\Users\myangell\Documents\My Games\Terraria\tModLoader\ModSources\MechaKeys\SteamWorkshop\steamcmd/appcache/appinfo.vdf (1695 apps, 4886 KB) in 54 ms
+
+
+[2026-10-18 11:15:45] Client version: 1791918946
+[2026-10-18 11:15:45] ThreadedReadFromDisk: loading appinfo cache from: C:\Users\myangell\Documents\My Games\Terraria\tModLoader\ModSources\MechaKeys\SteamWorkshop\steamcmd/appcache/appinfo.vdf
+[2026-10-18 11:15:45] ThreadedReadFromDisk: header version: 0x7564429
+[2026-10-18 11:15:45] ThreadedReadFromDisk: apps updated: 1695
+[2026-10-18 11:15:45] CAppInfoCacheReadFromDiskThread took 71 milliseconds to initialize
+[2026-10-18 11:15:48] RequestAppInfoUpdate: AppIDs 7
+[2026-10-18 11:15:48] Packages changed: force all
+[2026-10-18 11:15:48] Apps changed: force all
+[2026-10-18 11:15:48] Change number 39877583->39958077, apps: 0/0, packages: 0/0
+[2026-10-18 11:15:48] Requesting 1695 apps, 1009 packages (meta data, 1024 prev attempts, expected 126 KB)
+[2026-10-18 11:15:49] Requested 15 app access tokens, 0 received, 15 denied
+[2026-10-18 11:15:50] Downloaded 76 apps via HTTP, 1524 KB (277 KB compressed)
+[2026-10-18 11:15:50] Requesting 85 apps, 1 packages (full data, 1024 prev attempts, expected 406 KB)
+[2026-10-18 11:15:50] UpdatesJob: finished OK, apps updated 161 (1927 KB), packages updated 1 (0 KB)
+[2026-10-18 11:15:50] Requesting 1 apps, 0 packages (meta data, 1024 prev attempts, expected 0 KB)
+[2026-10-18 11:15:51] Requesting 1 apps, 0 packages (full data, 1024 prev attempts, expected 4 KB)
+[2026-10-18 11:15:51] UpdatesJob: finished OK, apps updated 1 (4 KB), packages updated 0 (0 KB)
+[2026-10-18 11:15:52] RequestAppInfoUpdate: AppIDs 228980,1281930
+[2026-10-18 11:15:52] Requesting 2 apps, 0 packages (meta data, 1024 prev attempts, expected 0 KB)
+[2026-10-18 11:15:52] UpdatesJob: finished OK, apps updated 0 (0 KB), packages updated 0 (0 KB)
+[2026-10-18 11:15:53] ThreadedWriteToDisk: writing appinfo cache to: C:\Users\myangell\Documents\My Games\Terraria\tModLoader\ModSources\MechaKeys\SteamWorkshop\steamcmd/appcache/appinfo.vdf
+[2026-10-18 11:15:53] App cache write succeeded C:\Users\myangell\Documents\My Games\Terraria\tModLoader\ModSources\MechaKeys\SteamWorkshop\steamcmd/appcache/appinfo.vdf (1696 apps, 4889 KB) in 50 ms

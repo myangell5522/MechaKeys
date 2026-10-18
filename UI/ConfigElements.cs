@@ -120,6 +120,22 @@ namespace MechaKeys.UI
 			ConfigDraw.Text(spriteBatch, middle, new Vector2(midX, y), Linked ? Color.Gray : Color.White);
 		}
 
+		// Terraria fires clicks on release, so the generic mouse click has to be
+		// cancelled on press; the preview played on release replaces it.
+		public override void LeftMouseDown(UIMouseEvent evt)
+		{
+			base.LeftMouseDown(evt);
+			if (!Linked)
+				ConfigDraw.PlayUiTick();
+		}
+
+		public override void RightMouseDown(UIMouseEvent evt)
+		{
+			base.RightMouseDown(evt);
+			if (!Linked)
+				ConfigDraw.PlayUiTick();
+		}
+
 		public override void LeftClick(UIMouseEvent evt)
 		{
 			base.LeftClick(evt);
@@ -228,6 +244,18 @@ namespace MechaKeys.UI
 
 				if (r.Contains(mouse))
 					_hovered = i;
+			}
+		}
+
+		public override void LeftMouseDown(UIMouseEvent evt)
+		{
+			base.LeftMouseDown(evt);
+			Point p = evt.MousePosition.ToPoint();
+			foreach (Rectangle r in _chips) {
+				if (r.Contains(p)) {
+					ConfigDraw.PlayUiTick();
+					return;
+				}
 			}
 		}
 
@@ -345,6 +373,12 @@ namespace MechaKeys.UI
 			}
 		}
 
+		public override void LeftMouseDown(UIMouseEvent evt)
+		{
+			base.LeftMouseDown(evt);
+			ConfigDraw.PlayUiTick();
+		}
+
 		public override void LeftClick(UIMouseEvent evt)
 		{
 			base.LeftClick(evt);
@@ -388,6 +422,18 @@ namespace MechaKeys.UI
 			ConfigDraw.Text(spriteBatch, "Mecha Keys" + state, new Vector2(x, y), Color.White, maxW);
 			ConfigDraw.Text(spriteBatch, $"{ConfigDraw.L("Keyboard")}: [c/{kbc.Hex3()}:{kb}]", new Vector2(x, y + 24f), Color.White, maxW);
 			ConfigDraw.Text(spriteBatch, $"{ConfigDraw.L("Mouse")}: [c/{msc.Hex3()}:{ms}]", new Vector2(x, y + 46f), Color.White, maxW);
+		}
+
+		public override void LeftMouseDown(UIMouseEvent evt)
+		{
+			base.LeftMouseDown(evt);
+			ConfigDraw.PlayUiTick();
+		}
+
+		public override void RightMouseDown(UIMouseEvent evt)
+		{
+			base.RightMouseDown(evt);
+			ConfigDraw.PlayUiTick();
 		}
 
 		public override void LeftClick(UIMouseEvent evt)

@@ -93,3 +93,14 @@
 [2026-10-15 23:57:55] Flushed store 'userlocal' to 'C:\Users\myangell\Documents\My Games\Terraria\tModLoader\ModSources\MechaKeys\SteamWorkshop\steamcmd\userdata\1256002322\config\localconfig.vdf'
 [2026-10-15 23:57:56] Flushed store 'userlocal' to 'C:\Users\myangell\Documents\My Games\Terraria\tModLoader\ModSources\MechaKeys\SteamWorkshop\steamcmd\userdata\1256002322\config\localconfig.vdf'
 [2026-10-15 23:57:59] Flushed store 'userlocal' to 'C:\Users\myangell\Documents\My Games\Terraria\tModLoader\ModSources\MechaKeys\SteamWorkshop\steamcmd\userdata\1256002322\config\localconfig.vdf'
+
+
+[2026-10-18 11:15:45] Client version: 1791918946
+[2026-10-18 11:15:45] Loaded store 'install' from 'C:\Users\myangell\Documents\My Games\Terraria\tModLoader\ModSources\MechaKeys\SteamWorkshop\steamcmd\config\config.vdf' successfully
+[2026-10-18 11:15:45] Loaded store 'install' from 'C:\Users\myangell\Documents\My Games\Terraria\tModLoader\ModSources\MechaKeys\SteamWorkshop\steamcmd\config\config.vdf' successfully
+[2026-10-18 11:15:45] Loaded store 'install' from 'C:\Users\myangell\Documents\My Games\Terraria\tModLoader\ModSources\MechaKeys\SteamWorkshop\steamcmd\config\config.vdf' successfully
+[2026-10-18 11:15:45] Loaded store 'userlocal' from 'C:\Users\myangell\Documents\My Games\Terraria\tModLoader\ModSources\MechaKeys\SteamWorkshop\steamcmd\userdata\1256002322\config\localconfig.vdf' successfully
+[2026-10-18 11:15:45] Loaded store 'install' from 'C:\Users\myangell\Documents\My Games\Terraria\tModLoader\ModSources\MechaKeys\SteamWorkshop\steamcmd\config\config.vdf' successfully
+[2026-10-18 11:15:48] Flushed store 'install' to 'C:\Users\myangell\Documents\My Games\Terraria\tModLoader\ModSources\MechaKeys\SteamWorkshop\steamcmd\config\config.vdf'
+[2026-10-18 11:15:51] Flushed store 'userlocal' to 'C:\Users\myangell\Documents\My Games\Terraria\tModLoader\ModSources\MechaKeys\SteamWorkshop\steamcmd\userdata\1256002322\config\localconfig.vdf'
+[2026-10-18 11:15:53] Flushed store 'userlocal' to 'C:\Users\myangell\Documents\My Games\Terraria\tModLoader\ModSources\MechaKeys\SteamWorkshop\steamcmd\userdata\1256002322\config\localconfig.vdf'

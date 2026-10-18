@@ -1,5 +1,5 @@
 displayName = Mecha Keys
 author = myangell
-version = 0.2
+version = 0.2.1
 side = Client
 buildIgnore = *.csproj, *.user, obj\*, bin\*, .vs\*, .git\*, creamykeys\*, tools\*, SteamWorkshop\*
